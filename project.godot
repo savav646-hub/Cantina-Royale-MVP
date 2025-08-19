@@ -1,0 +1,18 @@
+; Engine configuration file.
+; Format: ini
+
+
+config_version=5
+
+
+[application]
+config/name="Cantina Royale v1"
+run/main_scene="res://scenes/Arena.tscn"
+
+
+[input]
+ui_up={ "deadzone": 0.5, "events": [ { "type": "key", "keycode": 87 }, { "type": "key", "keycode": 4194320 } ] }
+ui_down={ "deadzone": 0.5, "events": [ { "type": "key", "keycode": 83 }, { "type": "key", "keycode": 4194322 } ] }
+ui_left={ "deadzone": 0.5, "events": [ { "type": "key", "keycode": 65 }, { "type": "key", "keycode": 4194319 } ] }
+ui_right={ "deadzone": 0.5, "events": [ { "type": "key", "keycode": 68 }, { "type": "key", "keycode": 4194321 } ] }
+shoot={ "deadzone": 0.5, "events": [ { "type": "mouse_button", "button_index": 1 } ] }
